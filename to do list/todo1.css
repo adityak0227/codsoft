@@ -1,0 +1,150 @@
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(28, 4, 43);
+    font-size: xx-large;
+}
+body{
+    height: 95vh;
+    background: linear-gradient(120deg, rgb(92, 215, 145),rgb(82, 175, 237)) repeat;
+    position: relative;
+}
+footer{
+    color: rgb(20, 13, 1);
+    position:absolute;
+    left: 47%;
+    bottom: 3px;
+}
+#bg-container{
+    background: linear-gradient(140deg, rgb(227, 238, 129), rgb(5, 5, 164));
+    min-height: 210px;
+    padding: 5px;
+    width : 800px;
+    border-radius: 5px;
+    margin: auto;
+    /* animation: rotation 5s ease-in-out 3ms 50; */
+}
+
+#container_1{
+    font-family: 'Segoe UI';
+    background-color: rgb(217, 219, 219);
+    min-height: 400px;
+    width : 800px;
+    border-radius: 5px;
+    margin: auto; 
+}
+
+#container_1 p {
+    font-size: large;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-weight: 800px;
+    margin: auto;
+    padding: 5px 0px 5px 50px;
+    display: flex;
+    align-items: center;
+    width: 240px;
+    color: rgb(98, 98, 98);
+}
+#container_1 img{
+    float: right;
+    height: 40px;
+    width: 40px;
+}
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 5px 0;
+    margin: 0 5px 0 ;
+    border-radius: 3px;
+    background-color:rgb(197, 129, 218)
+}
+#task1{
+    background-color: rgb(234, 234, 234);
+    padding: 2px;
+    border-style: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 50%;
+    height: 25px;
+    text-align: center;
+    outline: none;
+}
+#add {
+    border: none;
+    display: inline-block;
+    height: 29px;
+    padding: 5px 20px;
+    border-radius: 0 10px 10px 0px;
+    background-color: rgb(113, 199, 153);
+    font-weight: bold;
+    color: rgb(63, 102, 102);
+} 
+ul li{
+    list-style: none;
+    display: flex;
+    user-select: none;
+    position: relative;
+    padding:8px 5px 8px 40px;
+    align-items: center;
+}
+ul li::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    border: 1px solid rgb(36, 36, 36);
+    position: absolute;
+    left: 10px;
+    border-radius: 50%;
+    background-color: rgba(179, 231, 255, 0.55);
+}
+.checked{
+    text-decoration:line-through;
+    color: rgb(100, 100, 100);
+}
+ul li.checked::before{
+    background-color: rgb(74, 159, 102);
+    background: url("https://media.istockphoto.com/vectors/flat-round-check-mark-green-icon-button-tick-symbol-isolated-on-white-vector-id691856234?k=6&m=691856234&s=170667a&w=0&h=mo_DNGrIWbOiF8bAn3Ou-sgudLtP6V5hMulju4z-Aos=");
+    background-size: cover;
+   /* aditya codsoft task */
+}
+ul li span{
+    color: rgb(222, 239, 175);  
+    position: absolute;
+    right: 35px;  
+    padding: 0px 5px 2px 5px;
+    border-radius: 50%;
+}
+ul li span:hover{
+    background-color: rgb(209, 209, 209);
+}
+.strip{
+    content: "";
+    background: linear-gradient(140deg, rgb(107, 182, 84), rgb(109, 185, 210));
+
+    width: 100%;
+    height: 20px;
+    bottom: 0px;
+    position: absolute;
+}
+/*Date And Time Styling*/
+#date-time{
+    display: flex;
+
+}
+.display-date{
+    
+    padding: 2px 15px;
+    font-family: Verdana;
+    font-size: 10px;
+    color: rgb(98, 98, 98);
+}
+.display-time{
+    margin-left: 600px;
+    padding: 2px 15px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: rgb(98, 98, 98);
+
+}
